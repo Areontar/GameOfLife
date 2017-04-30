@@ -1,5 +1,6 @@
 package ex.sl.cgolife;
 
+import java.awt.Dimension;
 import java.awt.Font;
 
 //Imports are listed in full to show what's being used
@@ -23,6 +24,7 @@ public class ConsoleWriter {
 	    f.getContentPane().add(upperPanel, "North");
 	    f.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 	    f.setSize(500, 500);
+	    f.setPreferredSize(new Dimension(800, 800));
 	    Font font = new Font(Font.MONOSPACED, 20, 20);
 
 	    upperPanel.add(console);

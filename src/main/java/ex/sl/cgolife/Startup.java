@@ -12,7 +12,7 @@ public class Startup {
 		B3S23 rule = new B3S23();
 		Generator g = new Generator(rule);
 		
-		origin.generateNewBoard(2L, 30, 30);
+		origin.generateNewBoard(295557L, 30, 30);
 		ConsoleWriter writer = new ConsoleWriter();
 
 		while(true) {

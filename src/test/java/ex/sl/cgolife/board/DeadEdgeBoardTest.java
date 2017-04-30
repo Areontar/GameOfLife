@@ -8,6 +8,8 @@ import org.junit.Test;
 
 import ex.sl.cgolife.board.Board;
 import ex.sl.cgolife.board.DeadEdgeBoard;
+import ex.sl.cgolife.boardDs.HashMapStructure;
+import ex.sl.cgolife.boardDs.PrimitiveMatrixDataStructure;
 import ex.sl.cgolife.util.Neighborhood;
 
 public class DeadEdgeBoardTest {
@@ -16,7 +18,7 @@ public class DeadEdgeBoardTest {
 	
 	@Before
 	public void setup() {
-		board = new DeadEdgeBoard();
+		board = new DeadEdgeBoard(new PrimitiveMatrixDataStructure());
 	}
 	
 	@After

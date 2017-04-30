@@ -28,7 +28,7 @@ public interface Board {
 	 * @param y
 	 * @param state true is alive, false if dead
 	 */
-	public void updateCell(int x, int y, boolean state);
+	public void updateCell(int x, int y, Boolean state);
 	
 	/**
 	 * get the state of the cell
